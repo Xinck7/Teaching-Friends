@@ -1,0 +1,29 @@
+Vagrant.configure("2") do |config|
+    
+    config.vm.box = "generic/rocky8"
+    config.vm.synced)folder ".", "/vagrant"
+    config.vm.provider "virtualbox" do |vb|
+        vb.memory = 4096
+        vb.cpus = 4
+        vb.customize = ['modifyvm', :id, '--graphicscontroller', 'vmsvga']
+        vb.customize = ['modifyvm', :id, '--vram', '256']
+    end
+
+    config.vm.provision "shell", inline: <<-SHELL
+        sudo yum clean all
+        sudo yum update -y
+        # sudo yum groupinstall "Server with GUI" -y
+        # sudo systemctl set-default graphical.target
+        # sudo yum install snapd -y
+        # sudo systemctl enable --now snapd.socket
+        # sleep 60
+        # sudo ln -s /var/lib/snapd/snap /snap
+        # sudo snap install openjfx
+        # sudo snap install openjdk
+        # sudo ln -s /snap/openjdk/current/jdk/bin/java /usr/bin/java
+        # mkdir -p /opt/stigviewer
+        # sudo curl https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_STIGViewer-linux_x64-3-3-0.zip -o /opt/stigviewer/stigviewer.zip
+        # cd /opt/stigviewer
+        # unzip *.zip
+    SHELL
+end

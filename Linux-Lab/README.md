@@ -14,7 +14,7 @@ EZ clap you did it! #You too can read instructions
 
 1. sign into linux VM
 2. install GUI ()
-(you can uncomment some stuff to fast track setup)
+3. (you can uncomment some stuff to fast track setup after running through the manual steps)
 
 ## Lab 3 Install STIGViewer
 

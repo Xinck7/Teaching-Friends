@@ -7,7 +7,7 @@
 1. Wanna learn for $$
 2. Have some time
 3. Patience young Padawan
-4. I don't know everything either
+4. I don't know everything either and I started knowing less than you - you can do it!
 
 ### Installs
 

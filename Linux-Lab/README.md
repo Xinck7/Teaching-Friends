@@ -5,7 +5,7 @@
 1. Deploy linux VM from vagrant
 
 ```bash
-vagrant init && cp Vagrantfile.base Vagrantfile && vagrant up
+vagrant init && cp config_file.base Vagrantfile && vagrant up
 ```
 
 EZ clap you did it! #You too can read instructions

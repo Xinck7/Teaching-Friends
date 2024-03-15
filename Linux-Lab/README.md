@@ -29,18 +29,20 @@ EZ clap you did it! #You too can read instructions
 
 1. Delete current Vagrant if you have done so from labs 1-3
 2. Redeploy from template (full uncommented - or snapd commented)
-3. Install Python3
-4. Download Flask
-5. Create a requirements.txt
-6. Start application (? I think just run python main.py)
-7. navigate to localhost in browser
+3. Install Python3 #hint package manager install option?
+4. Download Flask #get to read docs!
+5. Create a requirements.txt and put flask in it
+6. Copy paste the minimal application to a <pickyourfilename.py>
+7. Start application
+8. navigate to localhost in browser
 
 ## Lab 5 Docker Deploy Python Flask App
 
 1. Create Dockerfile
-2. Docker build 
-3. Docker run <image:youjustcreated>
-4. navigate to localhost
+2. Write out the best you can the steps from lab4 here using docker docs
+3. Docker build image
+4. Docker run <image:youjustcreated>
+5. navigate to localhost
 
 ## Lab 6 Docker deploy with docker-compose same thing
 

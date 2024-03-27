@@ -10,11 +10,12 @@ vagrant init && cp config_file.base Vagrantfile && vagrant up
 
 EZ clap you did it! #You too can read instructions
 
-## Lab 2 Install linux gui
+## Lab 2 Install/Start linux gui
 
 1. sign into linux VM
-2. install GUI ()
-3. (you can uncomment some stuff to fast track setup after running through the manual steps)
+2. install GUI () #might be done from vagrant
+3. run the proper init command and open gui
+4. (you can uncomment some stuff to fast track setup after running through the manual steps)
 
 ## Lab 3 Install STIGViewer
 
